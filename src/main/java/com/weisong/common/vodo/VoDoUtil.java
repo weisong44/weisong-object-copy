@@ -18,14 +18,12 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
 import com.weisong.common.vodo.annotation.BindToClass;
 import com.weisong.common.vodo.converter.ConverterDoToVo;
 import com.weisong.common.vodo.converter.ConverterVoToDo;
 
-@Component
 final public class VoDoUtil implements ApplicationContextAware, InitializingBean {
 
     final static public String VOCO_DISABLED = "vocoDisabled";

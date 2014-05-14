@@ -8,7 +8,6 @@ import java.util.Set;
 import junit.framework.Assert;
 
 import com.weisong.common.data.BaseDataObject;
-import com.weisong.common.util.JsonUtil;
 import com.weisong.common.value.BaseValueObject;
 
 public class TestUtil {
